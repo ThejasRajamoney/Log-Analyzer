@@ -1,0 +1,116 @@
+[
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-03-11T08:00:01",
+    "SubjectUserName": "john",
+    "IpAddress": "192.168.1.10",
+    "LogonType": 3
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T09:10:01",
+    "TargetUserName": "Administrator",
+    "IpAddress": "10.0.0.99",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T09:10:03",
+    "TargetUserName": "Administrator",
+    "IpAddress": "10.0.0.99",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T09:10:05",
+    "TargetUserName": "Administrator",
+    "IpAddress": "10.0.0.99",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T09:10:07",
+    "TargetUserName": "Administrator",
+    "IpAddress": "10.0.0.99",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T09:10:09",
+    "TargetUserName": "Administrator",
+    "IpAddress": "10.0.0.99",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4720,
+    "TimeCreated": "2026-03-11T10:45:00",
+    "SubjectUserName": "SYSTEM",
+    "TargetUserName": "hacker_backdoor",
+    "IpAddress": "127.0.0.1"
+  },
+  {
+    "EventID": 4732,
+    "TimeCreated": "2026-03-11T10:45:30",
+    "SubjectUserName": "SYSTEM",
+    "TargetUserName": "hacker_backdoor",
+    "GroupName": "Administrators",
+    "IpAddress": "127.0.0.1"
+  },
+  {
+    "EventID": 4720,
+    "TimeCreated": "2026-03-11T11:00:00",
+    "SubjectUserName": "SYSTEM",
+    "TargetUserName": "svc_exfil",
+    "IpAddress": "127.0.0.1"
+  },
+  {
+    "EventID": 4732,
+    "TimeCreated": "2026-03-11T11:00:30",
+    "SubjectUserName": "SYSTEM",
+    "TargetUserName": "svc_exfil",
+    "GroupName": "Administrators",
+    "IpAddress": "127.0.0.1"
+  },
+  {
+    "EventID": 7045,
+    "TimeCreated": "2026-03-11T11:15:00",
+    "ServiceName": "ReverseShell_Svc",
+    "ServiceFileName": "C:\\Windows\\Temp\\rs.exe",
+    "IpAddress": null
+  },
+  {
+    "EventID": 7045,
+    "TimeCreated": "2026-03-11T11:16:00",
+    "ServiceName": "WindowsUpdateHelper",
+    "ServiceFileName": "C:\\Users\\Public\\winupd.exe",
+    "IpAddress": null
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-03-11T14:00:00",
+    "SubjectUserName": "alice",
+    "IpAddress": "192.168.1.20",
+    "LogonType": 3
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T15:30:01",
+    "TargetUserName": "admin",
+    "IpAddress": "203.0.113.9",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T15:30:03",
+    "TargetUserName": "admin",
+    "IpAddress": "203.0.113.9",
+    "FailureReason": "Bad password"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-03-11T15:30:05",
+    "TargetUserName": "admin",
+    "IpAddress": "203.0.113.9",
+    "FailureReason": "Bad password"
+  }
+]
